@@ -1,6 +1,6 @@
 const express = require('express');
-const authRouter = require('./router/auth-router.js'); // Ensure the correct file extension
-const db = require('./db/utils.js'); // Include the database connection
+const authRouter = require('./router/auth-router.js'); 
+const db = require('./db/utils.js'); 
 
 const app = express();
 app.use(express.json());
